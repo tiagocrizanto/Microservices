@@ -21,7 +21,7 @@ namespace Notification.Service
 
             bus.Start();
 
-            Console.WriteLine("Listening for Order registered events.. Press enter to exit");
+            Console.WriteLine("Listening for notification events.. Press enter to exit");
             Console.ReadLine();
 
             bus.Stop();
