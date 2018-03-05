@@ -3,7 +3,7 @@ using System;
 using System.Threading.Tasks;
 using Users.Messaging.Events;
 
-namespace Notification.Service.Consumers
+namespace NotificationService.Consumers
 {
     public class RegisteredUserConsumer : IConsumer<IRegisteredUserEvent>
     {

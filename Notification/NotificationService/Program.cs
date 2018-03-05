@@ -1,9 +1,9 @@
 ﻿using System;
 using MassTransit;
 using Users.Messaging;
-using Notification.Service.Consumers;
+using NotificationService.Consumers;
 
-namespace Notification.Service
+namespace NotificationService
 {
     class Program
     {
