@@ -139,6 +139,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\HR\Controllers\EmployeeController.cs" />
+    <Compile Include="Areas\HR\HRAreaRegistration.cs" />
+    <Compile Include="Areas\HR\Models\Employee\NewEmployeeViewModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Global.asax.cs">
@@ -156,6 +159,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\HR\Views\web.config" />
+    <Content Include="Areas\HR\Views\Employee\New.cshtml" />
+    <Content Include="Areas\HR\Views\Employee\Sucess.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -188,6 +194,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\HR\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -197,6 +204,14 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj">
+      <Project>{8c8f21a7-6f11-41b3-88e9-f510f626124a}</Project>
+      <Name>HumanResources.Domain.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\HumanResources.Messaging\HumanResources.Messaging.csproj">
+      <Project>{6856e1f2-b63b-4d4a-8bc8-8685ee11b476}</Project>
+      <Name>HumanResources.Messaging</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Users\Users.Domain.Entities\Users.Domain.Entities.csproj">
       <Project>{35cace6c-3c7e-427d-bf45-6b89a5f325c9}</Project>
       <Name>Users.Domain.Entities</Name>

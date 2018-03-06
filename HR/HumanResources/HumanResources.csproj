@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{610D0AF0-2208-4E17-A442-ED9BB752306B}</ProjectGuid>
+    <ProjectGuid>{0D2FD307-D323-4B59-B76F-30CBD17C1F27}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NotificationService</RootNamespace>
-    <AssemblyName>NotificationService</AssemblyName>
+    <RootNamespace>HumanResources</RootNamespace>
+    <AssemblyName>HumanResources</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -75,7 +75,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\RegisteredUserConsumer.cs" />
+    <Compile Include="Commands\RegisterEmployeeCommandConsumer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -84,10 +84,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Users\Users.Messaging\Users.Messaging.csproj">
-      <Project>{41777cf5-6b0e-4ac1-bfb7-2a0d6e0f4344}</Project>
-      <Name>Users.Messaging</Name>
+    <ProjectReference Include="..\..\HumanResource.DomainServices\HumanResource.DomainServices.csproj">
+      <Project>{ace09fc0-47b5-4f7a-ab03-6ccf2a7ae31d}</Project>
+      <Name>HumanResource.DomainServices</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj">
+      <Project>{8c8f21a7-6f11-41b3-88e9-f510f626124a}</Project>
+      <Name>HumanResources.Domain.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\HumanResources.Messaging\HumanResources.Messaging.csproj">
+      <Project>{6856e1f2-b63b-4d4a-8bc8-8685ee11b476}</Project>
+      <Name>HumanResources.Messaging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Events\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
