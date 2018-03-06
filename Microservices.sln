@@ -43,15 +43,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "Noti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources", "HR\HumanResources\HumanResources.csproj", "{0D2FD307-D323-4B59-B76F-30CBD17C1F27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Domain.Entities", "HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj", "{8C8F21A7-6F11-41B3-88E9-F510F626124A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Domain.Entities", "HR\HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj", "{8C8F21A7-6F11-41B3-88E9-F510F626124A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResource.DomainServices", "HumanResource.DomainServices\HumanResource.DomainServices.csproj", "{ACE09FC0-47B5-4F7A-AB03-6CCF2A7AE31D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResource.DomainServices", "HR\HumanResource.DomainServices\HumanResource.DomainServices.csproj", "{ACE09FC0-47B5-4F7A-AB03-6CCF2A7AE31D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResource.Repository", "HumanResource.Repository\HumanResource.Repository.csproj", "{8EE7B635-4F09-4CF9-8739-38B34C550E2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResource.Repository", "HR\HumanResource.Repository\HumanResource.Repository.csproj", "{8EE7B635-4F09-4CF9-8739-38B34C550E2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Messaging", "04 - Messaging", "{38BDF4CF-806A-4F53-86E6-961E2B6E2CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Messaging", "HumanResources.Messaging\HumanResources.Messaging.csproj", "{6856E1F2-B63B-4D4A-8BC8-8685EE11B476}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Messaging", "HR\HumanResources.Messaging\HumanResources.Messaging.csproj", "{6856E1F2-B63B-4D4A-8BC8-8685EE11B476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -84,15 +84,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\HumanResource.DomainServices\HumanResource.DomainServices.csproj">
+    <ProjectReference Include="..\HumanResource.DomainServices\HumanResource.DomainServices.csproj">
       <Project>{ace09fc0-47b5-4f7a-ab03-6ccf2a7ae31d}</Project>
       <Name>HumanResource.DomainServices</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj">
+    <ProjectReference Include="..\HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj">
       <Project>{8c8f21a7-6f11-41b3-88e9-f510f626124a}</Project>
       <Name>HumanResources.Domain.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\HumanResources.Messaging\HumanResources.Messaging.csproj">
+    <ProjectReference Include="..\HumanResources.Messaging\HumanResources.Messaging.csproj">
       <Project>{6856e1f2-b63b-4d4a-8bc8-8685ee11b476}</Project>
       <Name>HumanResources.Messaging</Name>
     </ProjectReference>

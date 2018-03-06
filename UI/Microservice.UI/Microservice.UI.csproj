@@ -204,11 +204,11 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj">
+    <ProjectReference Include="..\..\HR\HumanResources.Domain.Entities\HumanResources.Domain.Entities.csproj">
       <Project>{8c8f21a7-6f11-41b3-88e9-f510f626124a}</Project>
       <Name>HumanResources.Domain.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\HumanResources.Messaging\HumanResources.Messaging.csproj">
+    <ProjectReference Include="..\..\HR\HumanResources.Messaging\HumanResources.Messaging.csproj">
       <Project>{6856e1f2-b63b-4d4a-8bc8-8685ee11b476}</Project>
       <Name>HumanResources.Messaging</Name>
     </ProjectReference>
